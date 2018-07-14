@@ -1,103 +1,110 @@
  .parent{
-      display:flex;
-    flex-direction: row;
+    display:flex;
+    flex-direction:row;
     justify-content: center;
     }
     .parent>div{
-       margin:0.5%;
+      margin:0.5%;
       padding:1%;
-        border: solid black;
+      border: solid black;
     }
     .childone{
-      
+      border:1px solid #ddd;
       width:30%;
       height: 50%;
-      background-color:pink;
-      text-align: center;
-    }.childtwo{
-          width:60%;
+      margin:1%;
+      padding:1%;
+      background: pink;
+    }
+    .childtwo{
+      border:1px solid #ddd;
+      width:60%;
       height: 50%;
+      margin:1%;
+      padding:1%;
     }
     img{
-      
-  
-    border-radius: 50%;
+border-radius: 50%;
     }
 
 
 
     @media only screen and (min-width: 320px) and (max-width: 480px){
-  
+
      .parent{
       display:flex;
-    flex-direction: column;
+      flex-direction: row;
     }
     .childone{
-    
-      width:100%;
+      border:1px solid #ddd;
+      width:90%;
       height: 50%;
-      
-      text-align: center;
-
+      margin:1%;
+      padding:1%;
+      background: pink;
     }
     .childtwo{
-  
-      width:100%;
+      border:1px solid #ddd;
+      width:90%;
       height: 50%;
-     }
+      margin:1%;
+      padding:1%;
+    }
 }
 
  @media only screen and (min-width: 481px) and (max-width: 768px){
-  
+
      .parent{
       display:flex;
-    flex-direction: column;
+    flex-direction: row;
     }
      .parent>div{
        margin:0.5%;
       padding:1%;
         border: solid black;
       }
-    .childone{
-      
-      width:90%;
-    
-      text-align: center;
-      background-color:magenta;
-    }.childtwo{
-     
-      border: solid black;
-      width:90%;
-    }
+      .childone{
+        border:1px solid #ddd;
+        width:90%;
+        height: 50%;
+        margin:1%;
+        padding:1%;
+        background: pink;
+      }
+      .childtwo{
+        border:1px solid #ddd;
+        width:90%;
+        height: 50%;
+        margin:1%;
+        padding:1%;
+      }
     img{
       border: 2px solid red;
 
     border-radius: 50%;
   }
 }
-  
+
    @media only screen and (min-width: 769px) and (max-width: 1024px){
-  
+
      .parent{
       display:flex;
-    flex-direction: row;
+    flex-direction:row;
     }
-     .parent>div{
-       margin:0.5%;
-      padding:1%;
-        border: solid black;
-      }
     .childone{
-      
-      width:46%;
-      
-      text-align: center;
-      background-color:magenta;
+      border:1px solid #ddd;
+      width:30%;
+      height: 50%;
+      margin:1%;
+      padding:1%;
+      background: pink;
     }
     .childtwo{
-      
-      width:46%;
-
+      border:1px solid #ddd;
+      width:60%;
+      height: 50%;
+      margin:1%;
+      padding:1%;
     }
     /*img{
       border: 2px solid red;

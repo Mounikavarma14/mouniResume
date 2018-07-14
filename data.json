@@ -2,7 +2,45 @@
 	"basics":{
 "name":"MOUNIKA",
 "email":"mounka.chekuri14@gmail.com",
-"mobile":"+919876586578"			
-	}
-
+"mobile":"+919876586578"
+},
+"career":{
+	"info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+},
+"education":
+[
+	{
+		"degree":"B.tech(C.S.E)",
+		"institute":"Avanthi",
+		"data":["2012-19","65%"]
+	},
+{
+	"degree":"Intermediate/diplamo",
+	"institute":"Government junior college,nakkapalli",
+	"data":["2010-12","77.1%"]
+},
+{
+	"degree":"S.S.C",
+	"institute":"Z.P.H.S,Gudivada",
+	"data":["2010","83%"]
+}
+],
+"skills":[
+{
+	"title":"Programming Languages",
+	"info":["C++","c"]
+},
+{
+"title":"DataBases",
+"info":["mongoDb","mysql","Oracle"]
+},
+{
+"title":"Web Technologies",
+"info":["HTML5","CSS3","javaScript"]
+},
+{
+	"title":"libraries and Framework",
+	"info":["c","c++","java","Python","R"]
+}
+]
 }
